@@ -1,4 +1,4 @@
-FROM node:14
+FROM insightful/alpine-node
 WORKDIR /usr/src/app
 
 COPY package*.json ./
